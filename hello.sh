@@ -14,10 +14,11 @@ uname -a
 sleep 2
 
 ls -lah
-sleep3
+sleep 3
 
 mkdir -p build
-cat build/build_log.txt
+mv build_output.txt build/
+cat build_output.txt
 
 sleep 5
 
